@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>TaylorSwift1989</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	</head>
+
+
+<body>
+	<header class="text-center">
+		<h1> How Well do you Know Taylor Swift's 1989?</h1>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 mx-auto">
+				<div class="mb-3">
+					<p>In honor of the October 26th, 2023 release of <a href="https://en.wikipedia.org/wiki/1989_(album)">1989</a> (Taylor's Version) we've put together this fun quiz to test your knowledge of blondie's fifth studio album. </p>
+				</div>
+
+				<form>
+					<!-- Q1 -->
+					<div class="mb-3">
+						<label for="song_count" class="form-label">How many songs were in the original album?</label>
+						<input type="text" class= "form-control" name="song_count" id="song_count">
+					</div>
+					<!-- Answer= 16 -->
+					
+					<!-- Q2 -->
+					<div class="mb-3">
+						<label for="genre_switch" class="form-label"> What music genre is the album? </label>
+						<input type="text" class="form-control" name="genre_switch" id="genre_switch">
+					</div>
+					<!-- Answer= Pop -->
+
+					<!-- Q3 -->
+					<div class="mb-3">
+						<label for="albums_in_order" class="form-label"> List all of Taylor Swift's Albums in Order of their Original Release Dates </label>
+						<textarea class="form-control" id="albums_in_order" name="albums_in_order" rows="5">
+						</textarea>
+					</div>
+					<!-- Answer= Taylor Swift, Fearless, Speak Now, Red, 1989, Reputation, Lover, Folklore, Evermore, Midnights. -->
+
+					<!-- Q4 -->
+					<div class="mb-3">
+					<label class="form-label"> What Animal is Featured on the Album Cover? (Choose One) </label>
+
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="radio" id="cat" name="animal" value="Cat" class="form-check-input"> Cat
+						</label>
+					</div>
+					
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="radio" id="dog" name="animal" value="Dog" class="form-check-input"> Dog
+						</label>
+					</div>
+					
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="radio" id="seagull" name="animal" value="Seagull" class="form-check-input"> Seagull
+						</label>
+					</div>
+					
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="radio" id="snake" name="animal" value="Snake" class="form-check-input"> Snake
+						</label>
+					</div>
+					</div>
+					<!-- Answer= Seagull. -->
+
+					<!-- Q5 -->
+					<div class="mb-3">
+						<label class="form-label"> Select All of the Songs that Belong in the Album (Choose Multiple)</label>
+
+						<div class="form-check">
+							<input type="checkbox" id="song1" name="song1" value="wonderland" class="form-check-input">
+							<label for="song1" class="form-check-label"> Wonderland </label>
+						</div>
+					
+						<div class="form-check">
+							<input type="checkbox" id="song2" name="song2" value="blank_space" class="form-check-input">
+							<label for="song2" class="form-check-label"> Blank Space </label>
+						</div>
+					
+						<div class="form-check">
+							<input type="checkbox" id="song3" name="song3" value="fifteen" class="form-check-input">
+							<label for="song3" class="form-check-label"> Fifteen </label>
+						</div>
+					
+						<div class="form-check">
+							<input type="checkbox" id="song4" name="song4" value="clean" class="form-check-input">
+							<label for="song4" class="form-check-label"> Clean </label>
+						</div>				
+					</div>	
+					<!-- Answers= Wonderland, Blank Space, Clean. -->
+
+					<!-- Q6 -->
+					<div class="mb-3">
+						<label class="form-label" for="drop_down">Select which song lyric DOES NOT belong:</label>
+  						<select class="form-select" name="drop_down" id="drop_down">
+   							<option value="lyric1">"We're all so tired of everything"</option>
+    						<option value="lyric2">"Honey, life is just a classroom"</option>
+    						<option value="lyric3">"Heartbreak is the national anthem"</option>
+   							<option value="lyric4">"Losing him was blue like I'd never known missing him was dark gray, all alone"</option>
+    						<option value="lyric5">"We team up then switch sides like a record changer"</option>
+    						<option value="lyric6">"Cause baby, I could build a castle 0ut of all the bricks they threw at me"</option>
+  						</select>
+					</div>
+					<!-- Answer= Lyric 4 -->
+
+					<input type="submit" value="Submit" class="btn btn-primary">
+
+					<input type="reset" value="Reset" class="btn btn-secondary">
+
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- Bootstrap JS/Scripts -->
+	
+</body>
+</html>
